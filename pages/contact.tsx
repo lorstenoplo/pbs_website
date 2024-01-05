@@ -1,31 +1,20 @@
 import React from "react";
 import {
-  Avatar,
   Box,
   Button,
-  Checkbox,
-  Flex,
   FormControl,
   FormHelperText,
   FormLabel,
   GridItem,
   Heading,
-  Icon,
   Input,
-  InputGroup,
-  InputLeftAddon,
-  Radio,
-  RadioGroup,
   Select,
   SimpleGrid,
   Stack,
   Text,
   Textarea,
-  VisuallyHidden,
   chakra,
-  Divider,
 } from "@chakra-ui/react";
-import { FaUser } from "react-icons/fa";
 import Head from "next/head";
 import Layout from "@/components/shared/Layout";
 
@@ -62,7 +51,7 @@ const Contact = () => {
                 <chakra.form
                   method="POST"
                   shadow="base"
-                  rounded={[null, "md"]}
+                  rounded={"md"}
                   overflow={{ sm: "hidden" }}
                 >
                   <Stack
@@ -196,7 +185,8 @@ const Contact = () => {
                           }}
                         />
                         <FormHelperText>
-                          Brief description for your issue. Our team will help you out soon!
+                          Brief description for your issue. Our team will help
+                          you out soon!
                         </FormHelperText>
                       </FormControl>
                     </SimpleGrid>
@@ -214,7 +204,7 @@ const Contact = () => {
                       _focus={{ shadow: "" }}
                       fontWeight="md"
                     >
-                      Save
+                      Send
                     </Button>
                   </Box>
                 </chakra.form>

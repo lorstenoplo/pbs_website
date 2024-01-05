@@ -45,7 +45,7 @@ const Navbar = () => {
               <Heading
                 fontSize={"xl"}
                 ml={4}
-                display={{ xs: "none", sm: "block" }}
+                display={{ base: "none", sm: "block" }}
               >
                 Plant Based Society
               </Heading>

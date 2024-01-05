@@ -16,6 +16,7 @@ const Footer = () => {
       _dark={{
         bg: "gray.800",
       }}
+      gap={{ base: 6, sm: 0 }}
     >
       <chakra.a
         href="/"
